@@ -29,3 +29,4 @@ and its output will be:
 y=27.641387366*x1+12529.7681671*x2+2553.21066039*x3+-234.237164471*x4+52317.8305073
 R2=0.996748
 
+If you want to use it through web, put MLR to your www document root directory (like apache/htdocs/) and then visit http://yourwebserver/MLR/index.php  
