@@ -2,7 +2,6 @@
 
 import sys,string
 import numpy as np
-import matplotlib.pyplot as plt
 
 A = [] 
 B = []
@@ -23,8 +22,6 @@ for line in file:
         A.append(tmparray)
 
 result = np.linalg.lstsq(A,Y)
-plt.plot(A,Y)
-plt.savefig("/tmp/plot.png",dpi=75)
 B = result[0]
 ssresid = result[1][0]
 PY = np.dot(A,B)
