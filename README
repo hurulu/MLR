@@ -17,7 +17,12 @@ For example,the sample input data is stored in a text file sampledata.txt with i
 2494 3 3 23 163000 
 2517 4 4 55 169000 
 2540 2 3 22 149000 
-run ./mlr.py sampledata.txt and its output will be:
+
+
+./mlr.py sampledata.txt
+
+and its output will be:
+
 y=27.641387366*x1+12529.7681671*x2+2553.21066039*x3+-234.237164471*x4+52317.8305073
 R2=0.996748
 
